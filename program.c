@@ -93,7 +93,7 @@ int jogada(char tabuleiro1[ORDEM][ORDEM], char tabuleiro2[ORDEM][ORDEM], int x, 
 }
 int main(){
     //Declaração de Variáveis
-    int i, coordX, coordY;
+    int i, coordX, coordY, fim;
     
     printf("SEJA BEM-VINDO AO MEU CAMPO MINADO EM C!!!!!!!!!\n");
     printf("Atencao as regras do jogo: \n\n");
@@ -117,6 +117,12 @@ int main(){
             //Resetando variaveis
             coordX = 0, coordY = 0;
         }
+        if(i==JOGADAS - 1){
+        	fim=5;
+		}
     } 
+    if(fim==5){
+    	printf("Voce venceu o jogo!!!!! Parabens.\n");
+	}
     return 0;
 }
