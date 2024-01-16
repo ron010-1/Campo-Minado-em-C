@@ -1,5 +1,5 @@
 # Campo Minado 9x9
-Bem-vindo ao jogo clássico do Campo Minado! Neste projeto, implementamos um Campo Minado com uma grade de 9x9 células e 10 bombas espalhadas aleatoriamente. Este README fornecerá informações sobre como jogar, as regras do jogo e como executar o código.
+Bem-vindo ao jogo clássico do Campo Minado! Neste projeto, implementei um Campo Minado com uma grade de 9x9 células e 10 bombas espalhadas aleatoriamente. Este README fornecerá informações sobre como jogar, as regras do jogo e como executar o código.
 
 ## Como Jogar
 O objetivo do Campo Minado é descobrir todas as células sem bombas, evitando tocar em qualquer célula que contenha uma bomba. Cada célula aberta revelará um número que indica quantas bombas estão adjacentes a essa célula. Use essas dicas para determinar a localização das bombas e continue abrindo células até que todas as células seguras sejam descobertas.
@@ -29,5 +29,8 @@ Siga as instruções no console para interagir com o jogo.
 Use coordenadas para abrir células (Linha, Coluna).
 ## Contribuições
 Contribuições são bem-vindas! Se encontrar problemas ou tiver sugestões de melhoria, abra uma issue neste repositório.
+
+## Créditos
+ron010-1
 
 Divirta-se jogando Campo Minado!
