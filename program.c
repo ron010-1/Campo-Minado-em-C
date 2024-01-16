@@ -117,12 +117,9 @@ int main(){
             //Resetando variaveis
             coordX = 0, coordY = 0;
         }
-        if(i==JOGADAS - 1){
-        	fim=5;
-		}
     } 
-    if(fim==5){
-    	printf("Voce venceu o jogo!!!!! Parabens.\n");
+    if(i == JOGADAS-1){
+    	printf("Voce venceu o jogo!!!!! Parabens, pequeno gafanhoto.\n");
 	}
     return 0;
 }
