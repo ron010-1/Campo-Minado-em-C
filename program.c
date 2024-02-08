@@ -97,7 +97,7 @@ int main(){
     
     printf("SEJA BEM-VINDO AO MEU CAMPO MINADO EM C!!!!!!!!!\n");
     printf("Atencao as regras do jogo: \n\n");
-    printf("Digite as coordenadas: Linha x Coluna. Por favor, atenção nas coordenadas dos pontos;\n\n");
+    printf("Digite as coordenadas: Linha x Coluna. Por favor, atencao nas coordenadas dos pontos;\n\n");
     char tabuleiroUsuario[ORDEM][ORDEM], tabuleiroIdentidade[ORDEM][ORDEM];//Um será mostrado ao usuário e outro não.
     //Chamando procedimentos de preencher tabuleiro
     configuraTabuleiro(tabuleiroUsuario, tabuleiroIdentidade);
